@@ -1,0 +1,180 @@
+/* بسم الله الرحمن الرحيم
+هنا هيكون ملخص لأكواد البوتستراب ومعاه اللينك بتاع المرجع على النت 
+
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+*/
+------------------------------------------------------------------------
+/* grid system: */
+1-علشان اقسم الشاشه بيكون الطبيعي التقسيمه 12 عمود
+
+2-بكتب class="col" or "row" عبشان احدد عايز كام عمود او صف
+بيكون كدا : col-12   row-4
+
+3-دايما الكبير بياخد من الصغير وفي تقسيم الشاشه ممكن اكتب براحتي كل الرموز دي :
+a-justify-content: - center- or - end- or - start- or - between- or - around-
+b-align-items:- center- or - end- or - start- بيكون للعنصر الاساسي 
+c-align-self:نفس ال الايتمز وبيكون للفرعي
+------------------------------------------------------------------------
+/* الالوان: */
+primary=>ازرق فاتح
+success=>اخضر زرعي
+dark=>رمادي غامق
+warning=>اصفر
+blue=>ازرق
+danger=>احمر
+secondary=>رمادي
+info=>ازرق لبني
+light=>ابيض
+وممكن الاوان تكون بالcss احطها في style
+------------------------------------------------------------------------
+/* alert:تنبيه */
+<alert class="alert alert-color-" >
+------------------------------------------------------------------------
+/* button */
+type="button" class="btn"    الجمله دي ببتحطط لما بحب اعمل زر
+------------------------------------------------------------------------
+/* Margin */
+M-1
+the number is *10px
+------------------------------------------------------------------------
+/* card: */
+<div class="card" >
+  <img src="" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+    <a href="" class="btn btn-primary"></a>
+  </div>
+</div>
+------------------------------------------------------------------------
+/* badge */
+بحط كلمه badge 
+------------------------------------------------------------------------
+/* slidesimg */
+<div id="carouselExample" class="carousel slide">
+    <ol id="slide" class="indicators">
+        <li data-target="#slide" data-slide-to="number" class="active">   </li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>كلمه فوق الصوره</h5>
+                    <p>وصف للصورة</p>
+                </div>
+        </div>
+    </div
+</div>
+<a href="#slide" class="carousel-control-nex" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    /* علشان يمشي قدام */
+<a href="#slide" class="carousel-control-prev" data-slide="next">
+    <span class="carousel-control-prev-icon"></span>
+/* علشان يرجع ورا */
+------------------------------------------------------------------------
+/* dropdown */
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" id="X" data-toggle="dropdown">
+  </button>
+  <ul class="dropdown-menu" aria-;abellebdy="#X">
+    <li><a class="dropdown-item" href="#"></a></li>
+    <li><a class="dropdown-item" href="#"></a></li>
+    <li><a class="dropdown-item" href="#"></a></li>
+  </ul>
+</div>
+------------------------------------------------------------------------
+/* breadcrumb */
+<ol class="breadcrumb">
+    <li class="breadcrumb-item"></li>
+</ol>
+------------------------------------------------------------------------
+/* collapse */
+<div data-toggle="collapse" data-target="#id" id="">
+    <div class="collapse">
+------------------------------------------------------------------------
+/* form in bootstrap */
+<div class="form-group">
+    <label for="exampleFormControlInput1" class="form-label"></label>
+    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
+    <small class="form-text text-muted">  </small>
+    /* one file uploud */
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" id="formFile">
+    /* many files uploud */
+    <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+    <input class="form-control" type="file" id="formFileMultiple" multiple>
+    /* Disabled file input example */
+    <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+    <input class="form-control" type="file" id="formFileDisabled" disabled>
+    /* Small file input example */
+    <label for="formFileSm" class="form-label">Small file input example</label>
+    <input class="form-control form-control-sm" id="formFileSm" type="file">
+    /* Large file input example */
+    <label for="formFileLg" class="form-label">Large file input example</label>
+    <input class="form-control form-control-lg" id="formFileLg" type="file">
+</div>
+<div class="form-checkbox">
+    <input class="form-check-imput">
+<select class="form-control">
+    <option></option>
+------------------------------------------------------------------------
+/* inputs */
+<div class="input-group">
+    <div class="input-group-prepent">
+    <span class="input-groub-text">  </span>
+    </div>
+    <input type="" class="form-control">
+------------------------------------------------------------------------
+/* jumbotron */
+<div class="jumbotron">
+    <h1 class="display-4">
+    <p class="lead">
+    <hr class="my-4">
+------------------------------------------------------------------------
+/* navbar */
+<nav> or <nav class="navbar" bg-   navbar-   navbar-expand-    >
+    <ul class="nav"> or <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">    </a></li>
+    </ul>
+    <span class="navbar-toggler-icon"></span>
+</nav>
+------------------------------------------------------------------------
+/* progress bar */
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="#value-or-use-CSS-to-add-NUMBER">
+    <div class="progress-bar-striped" role="progressbar" aria-valuenow="#value-or-use-CSS-to-add-NUMBER">
+    <div class="progress-bar-striped-animated" role="progressbar" aria-valuenow="#value-or-use-CSS-to-add-NUMBER">
+------------------------------------------------------------------------
+/* model */
+you can use model from this link:
+https://getbootstrap.com/docs/5.3/components/modal/
+------------------------------------------------------------------------
+/* Pagination */
+/* <nav aria-label="Page navigation example"></nav>*/
+<ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+.....................................................................................
+موقع Bootstrap الإلكتروني الرسمي
+
+https://getbootstrap.com/
+
+أسس Bootstrap الخمسة من تقديم دانيال فورمان
+
+https://www.amazon.com/Bootstrap-Foundations-Mr-Daniel-Foreman/dp/B0948GRS8W/
+
+تصميم ويب تفاعلي باستخدام HTML5 وCSS من تقديم بن فراين
+
+https://www.amazon.com/Responsive-Web-Design-HTML5-CSS/dp/1839211563/
+
+نُسق Bootstrap
+
+https://themes.getbootstrap.com/
+
+
+

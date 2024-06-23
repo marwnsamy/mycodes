@@ -1,0 +1,232 @@
+﻿/* to link code css code to html use link */
+--------------------------- back-ground ---------------------------
+/* 
+    background-color لون خلفيه
+    background-image صورة خلفيه
+    background-repet تكرار للخلفيه {repeat,repeat-x,repeat-y,no-repeat}
+    background-attachment تحرك الصورة مع الحركه {normal be fixed}
+    background-position مكان الخلفيه {left,right,center}{top,center.botten} px{let,top,right,bottem}namber
+    background-size حجم الخلفيه{coverتثبيت الصوره}{contanملآ المحتوى والتحرك معاهع}{px}{%}
+ */
+--------------------------- edit-element ---------------------------
+/* 
+    padding هوامش داخليه{top,right,left,bottem}
+    margin هوامش خارجيه{top,right,left,bottem}
+    border حواف العنصر {width,color,style}
+    outline حواف خارج العنصر Same properties of border
+  */
+/* في الهوامش الداخليه والخارجيه تبدأ كالتنالي : tob right bottom left
+  في الحواف تكون كالتالي:width color style والاتجاهات نفس padding and margit */
+--------------------------- show-the-element ---------------------------
+/* 
+    visibility ظهور او اخفاء العنصر 
+    display عرض العنصر بأ] {block,inline,inline-block,....}
+    overflow  كل ما خارج العنصر{hedden,scroll,visible,auto,x-y}
+    border-redius حواف للعنصر
+    box-shadow ظل للعنصر [[inset,outset]مكان الظل H-shadow ظل افقي,v-shadowظل عمودي,blurضباب,spreadانتشار,colorلون]
+    box-sizing حجم العنصر
+*/
+-------------------------------------------------------------------------------
+/* لتجميع العناصر في الكود استخدم 
+element1,
+element2,
+element3,[]
+*/
+--------------------------- mex-codes ---------------------------
+/*  max-width حدود العنصر
+    min-widthحدود العنصر
+    max-hightحدود العنصر
+    min-widthحدود العنصر
+    filter
+    gradients تدرج الالوان 
+        :liner-gradient:direction,angle,color,stop1,stop2
+    caret-color تساعد على ان يكون جميع الالوان متساويه
+    pointer-event تساعد على تحديد الحدث
+    !important تتكتب في الخواص علشان تفيد ان الخاصيه مهمه 
+    float تعويم العنصر خارج العناصر الاخرى {left-right} 
+    clear تنقيه float {left-right-both}
+    position مكان العنصر{static,relative بناء على نفسه,absolute يدوس على اللي قبله,fixed تحرك مع الصفحه,sticky زي فيكسد}
+    opacity:شفافيه
+ */
+--------------------------- text-codes ---------------------------
+/* 
+    textcolor
+    background-color
+    color 
+    textshadow
+        text-shadow: x,y,blur,color
+    direction  
+        ltr-rtl
+    viretical-align محاذاه النص
+    text-alignمكان النص
+    text-decoration تزيين النص
+    text-trabsformation تغيير شكل النص
+    text-indent مسافه قبل النص
+    letter-spacinigمسافه بين الحروف
+    line-hight مسافه بين السطور
+    word-spacing مسافه بين الكلمات
+    white-space لما يوصل للمسافه المطلوبه ينزل النص لتحت
+    word-break
+    font-family عائله الخط
+    font-variant تكبير او تصغير الخط
+    font-styleتعديل شكل الخط 
+    font-weightوزن الخط 
+ */
+--------------------------- list-styling ---------------------------
+/* 
+    list-style-type شكل الرمز
+    list-style-position الرمز بتاع الليست يكون فين
+    list-style-image لأضافه صورة بدل رمز
+    list-style تشمل جميع اللي فات بالترتيب 
+ */
+--------------------------- table-styling ---------------------------
+/* 
+    border-spacing مسافات بين الخلايا
+    باقي التعديل يكون في الجدول بيكون بالاكواد العاديه 
+ */
+--------------------------- sudo-class ---------------------------
+/* 
+    hover:
+        1-clecked
+        2-visited
+        3-empty
+        4-focus
+        5-first-letter
+        6-first-line
+        7-selection
+        8-after
+        9-before
+ */
+--------------------------- عداد --------------------------- counter-increment العداد
+/* counter=اسم العداد
+/* attr=اسم الاتربيوت في html */
+/* اول حاجه بعمل تظبيط للعداد وبعدين بعمل ليه سودو المينت */
+--------------------------- Vondors prefixes ---------------------------
+/* 
+   تستخدم  علشان  لو   كان   الامر  جديد  في  المتصفحات   فا  يقبل   الامر
+   -webkit=chrome-safari-new  opera verstion
+   -maz=mazilla firfox
+   -ms=edge
+   -o=old verstion  of  opera
+*/
+---------------------------transition---------------------------
+/* 
+    transition-duration الانتقال من حاله X للحاله y
+    transition-delay مده اللي قبل التحرك
+    transition-property العنصر اللي بيتحكم بيه
+    transition-timing-function ازاي ينتقل من حاله لأخرى [ease بطئ ثم بسرعه ثم بطئ,linear سرعه ثابته,ease-inبطئ ثم بسرعه,ease-outسرعه ثم بطئ]
+    transition {property,duration,timing-function,delay}
+*/
+--------------------------- variables ---------------------------
+/* 
+    :root{value}
+    var(value,another  variable)
+*/
+--------------------------- flexible box --------------------------- dispaly:flex
+/* for  parents:
+        flex- direction الاتجاه{row,row-reverce,colum,colum-reverce}
+        flex- wrap تسيطر على العنصر وترتبها بدون ما تحرك عنصر اخر {nowrap,wrap,wrap-reverce}
+        flex- flow : direction wrap
+        justify -content :حرك العنصر مع اتجاه الموقع {flex-start,flex-end,center,space-between,space-around,space-evenly}
+        align-items : محاذاه العنصر { stretch , flex-(start or end),center}
+        align-content توزيع المحتوى بالكامل
+    */
+/* for child:
+        flex-grow نمو العناصر
+        flex-shrinkانكماش العناصر 
+        flex-basis تتعلق بالطول والعرض
+        order ترتيب العناصر
+        align-self محاذاه العنصر نفسه في اي مكان
+        flex: {grow}{shrink}{basis}
+    */
+--------------------------- grid اعاده تقسسييم المحتوى --------------------------- display:grid
+/* for parent
+        grid-template-columns عدد الاعمده وتقاس بـ{px,%,auto,mix,fr,repet(NO.colum)
+        grid-template-rowsعدد الصفوف  وتقاس بـ{px,%,auto,mix,fr,repet(NO.colum)
+        grid-template-areas توزيع المساحات 
+        justify -content :حرك العنصر مع اتجاه الموقع {flex-start,flex-end,center,space-between,space-around,space-evenly}
+        align-center
+        (row/column)-gab فراغ بين الصف او العمود
+    */
+/* for child
+        grid-cloumn : {{start/end},span(number of colum),mex}
+        grid-row :{{start/end},span(number of colum),mex}
+        grid-row-start البدايه من الصف
+        grid-column-startالبدايه من العمود
+        grid-row-endنهايه الصف من
+        grid-column-end نهايه العمود من
+        grid-area :{row start,colum start,row end, colum end}
+    */
+--------------------------- transform --------------------------- display:transform about=>2D
+/* 
+            scalex() تحرك في الاتجاه x
+            scaley() تحرك في الاتجاه y
+            scale(x,y) تحرك في الاتجاه x,y
+            rotate() تدوير 
+            trabslate(x,y) نقل من الى
+            skewx() انحراف x
+            skewy() انحراف y 
+            skew(x,y) انحراف x,y
+            matrix(scaleX,skewY,skewX,scaleY,translateX,translateY) جميع
+            transform-origin البدايه من
+        */
+about=>3D
+/* 
+            rotate3d(x,y,z,deg)  دوران في x,y,z
+            translate3d(x,y,z) نقل في x,y,z
+            prespective زي zoom in,zoom out
+            precpective-orgin بدايه الحركه
+            backface-visibility تمنع الflip من الظهور لو هوا مخفي 
+            transform-style حفظ مكان الflip
+*/
+about=>animtion
+/* 
+            animation-name اسم الانيميشن
+            animation-duration نده الانيميشن
+            animation-iteration-count عدد الحركات 
+            animation-timing-function سرعه الحركات [ease بطئ ثم بسرعه ثم بطئ,linear سرعه ثابته,ease-inبطئ ثم بسرعه,ease-outسرعه ثم بطئ]
+            animation-direction اتجاه شكل الحركه
+            animation-delayتأخر الحركه في البدء
+            animation-dill-made تأخر الحركه عن اللي قبلها
+            animation-play-state اللي هيحصل لما اتحرك بالسهم وكدا وبستخدم معاها hover
+            animation:namw,duration,time function,delay,itration count,direction,fill made مجمع
+        */
+--------------------------- selectors ---------------------------
+/*
+        *
+        element
+        element other element 
+        .class name
+        #id name
+        .parent .child
+        .class name .class name
+        .class name div
+        element .class name
+        .class name > .child
+        element +other element
+        element~other element
+        [attribute]
+        element[attribute]
+        [attribute~=value]
+        [attribute*=value]
+        [attribute^=value]
+        :first-child
+        :last-child
+        :first-of-type
+        :last-of-type
+        :only-child
+        :only-of-type
+        :not()
+        :nth-child()
+        :nth-last-child()
+        :nth-of-type()
+        :nth-of-type(
+        :root
+        :checked
+        :empty
+        :disabled
+        :required
+        :focus
+        ::selection
+        ::placeholder
+*/
