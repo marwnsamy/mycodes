@@ -42,3 +42,38 @@ else
 // must be #int#char#
 // be only specific value only
 //                                             ============================================
+//                          loop statment
+/*
+a-while (continuation)
+    {
+    action1;
+    action2;
+    action3;
+    .
+    .
+    action n;
+    } في الwhile يكون الشرط في الاول وفي الاخر ممكن احط اللي يحصل بعد نهايه ال loop
+
+b-do while statment:
+    do {
+        this;
+        and this;
+        and this;
+        and this;
+        }
+    while (action statment)
+    في الحاله دي بيتم عمل اللloop لمره واحده على الاقل
+
+c-for statment:
+    for (initialise counter;test counter;increment counter)
+    {
+    do this; 
+    and this;
+    and this;
+    .
+    . 
+    }
+    وممكن نطلع اي شرط من الشروط برا الfor المهم يكون نفس التمبلت
+
+//we can use nested loops  {in->in->in}
+*/
