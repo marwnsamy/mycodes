@@ -1,18 +1,18 @@
 1 -
-    //* first thing add in code is:*/ #include<iostream> std
+     first thing add in code is:*/ #include<iostream> std
     //                                            ============================================
-    2 -
-    //  علشان اعمل مسافات في السطر بستخدم شويه رموز زي \n سطر جديد   \t نفس السطر بس مسافه 8حروف   \r  \a  \\ \'اقبتياس بعلامه واحده \''اقتباس بعلامتين
+2 -
+   علشان اعمل مسافات في السطر بستخدم شويه رموز زي \n سطر جديد   \t نفس السطر بس مسافه 8حروف   \r  \a  \\ \'اقبتياس بعلامه واحده \''اقتباس بعلامتين
     //                                            ============================================
-    3 -
-    //  c++ data taypes:charحرف - int ارقام بدون كسور - short - bool - float كسور - doubleكسور طويله  - longdouble
+3 -
+   c++ data taypes:charحرف - int ارقام بدون كسور - short - bool - float كسور - doubleكسور طويله  - longdouble
     //                                            ============================================
-    4 -
-    //  all variables must be initalized but not nessery declaration.4 - int = 4bytes -- -short = 2bytes -- -double = 8types -- -char = حرف-- - unsigned = 4bytes only possitive-- - float = 4bytes
+4 -
+   all variables must be initalized but not nessery declaration.4 - int = 4bytes -- -short = 2bytes -- -double = 8types -- -char = حرف-- - unsigned = 4bytes only possitive-- - float = 4bytes
     //                                            ============================================
-    5 -
-    //  المعادلات اللي فيها اكتر من data types have some roles : والقوانين للمعادلات كلها برضو
-    /*
+5 -
+   المعادلات اللي فيها اكتر من data types have some roles : والقوانين للمعادلات كلها برضو
+   
     a -
     int + int + int + int.....int = int
     b -
@@ -30,14 +30,14 @@
     h -
     ترتيب العمليات الحسابيه كدا = >
                                         () * / % +-
-    */
+   
     //                                            ============================================
-    6 -
-    /*
+6 -
+   
     ==يساوي
     != لا يساوي
     <اكبر من
     >اصغر من
     <=اكمر من او يساوي
     >= اصغر من او يساوي
-    */
+   
