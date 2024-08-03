@@ -1,5 +1,5 @@
 1 -
-     first thing add in code is:*/ #include<iostream> std
+     first thing add in code is: #include<iostream> std
     //                                            ============================================
 2 -
    علشان اعمل مسافات في السطر بستخدم شويه رموز زي \n سطر جديد   \t نفس السطر بس مسافه 8حروف   \r  \a  \\ \'اقبتياس بعلامه واحده \''اقتباس بعلامتين
